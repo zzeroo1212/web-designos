@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+   
+    
+
+    font-family: "Roboto Slab", serif;
+    padding: 0;
+
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.img-header {
+    width: 100%;
+    height: 500px;
+}
+
+.contenedor-img-header {
+    margin-right: auto;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+.contenedor {
+    padding-left: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 70px;
+    width: 100%;
+    gap: 20px;
+
+
+
+
+
+}
+
+.texto {
+    flex-direction: column;
+    width: 95%;
+
+}
+
+
+
+.img-texto {
+
+    width: 95%;
+    height:500px ;
+
+
+
+}
+
+
+
+h1,
+h4 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: blue;
+}
+
+H4 {
+    padding-right: 80%;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: black;
+
+}
+
+.button {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 8px;
+    width: 15%;
+    height: 40px;
+    margin-top: auto;
+    background-color: #0a2ff1;
+
+}
+
+#p-blue{color: #0a2ff1;}
+
+.Contenedor-button {
+    display: block;
+    margin-left: 45px;
+}
+
+.footer {
+
+
+    background-color: rgb(14, 14, 75);
+    width: 100%;
+    height: 25PX;
+    margin-bottom: 5PX;
+    margin-top: 100px;
+}
+
+/* estilos contactos */
+
+.contenedor-formulario{
+    display: block;
+    margin: 50px auto;
+    max-width: 1024px;
+    width: 100%;
+    height: 500px;
+     padding-left:100px;
+
+
+}
+
+input ,label{
+  
+    
+     border-radius: 10px;
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 30px;
+      border-color: burlywood;
+      margin: auto ;
+     background-color: white;
+    
+}
+ul {
+    list-style: none;
+   
+}
+
+
+.formulario-list{
+ 
+   
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ 
+
+    margin: 100px  auto;
+    width: 100%;
+ 
+    
+}
+
+textarea{
+    width: 400px ;
+height: 200px;
+border-radius: 10px;
+font-size: 20px;
+border-color: chocolate;
+background-color: white;
+}
+
+
+
+/* media queri */
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .contenedor{
+        gap: 6px;
+    }
+    
+
+.img-header {
+    width: 100%;
+    height: 400px;
+}
+    
+    
+.img-texto {
+
+    width: 90%;
+    height:400px ;
+
+
+
+}
+    .button {
+        font-family: "Roboto Slab", serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+    
+        border-radius: 10px;
+        width: 25%;
+        height: 40px;
+        
+        background-color: #04135e;  }
+
+
+        .Contenedor-button {
+            margin: auto;
+            text-align: center;
+            
+            max-width: 768px;
+
+            width: 100%;
+            
+
+        }
+
+        .texto {
+            flex-direction: column;
+            width: 85%;
+        
+        }
+        h1,h4{font-size:28px ;}
+        p{ font-size:22px ;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+
+
+    .contenedor{
+        gap: 2px;
+    }
+    
+
+.img-header {
+    width: 100%;
+    height: auto;
+}
+    
+    
+.img-texto {
+
+    width: 90%;
+    height:300px ;
+
+
+
+}
+    .button {
+        font-family: "Roboto Slab", serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    
+        border-radius: 10px;
+        width: 30%;
+        height: 40px;
+        
+        background-color: #04135e;  }
+
+
+        .Contenedor-button {
+            margin: auto;
+            text-align: center;
+            
+            max-width: 768px;
+
+            width: 100%;
+            
+
+        }
+        #p-blue{ font-size: 18px;}
+
+        .texto {
+            flex-direction: column;
+            width: 90%;
+        
+        }
+        h1,h4{font-size:26px ;}
+        p{ font-size:20px ;}
+
+    }
